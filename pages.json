@@ -1,0 +1,103 @@
+{	
+	"easycom": {
+        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+        // 下载安装方式
+        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+        // npm安装方式
+        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "HABIT"
+			}
+		}
+		,{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "Profile"
+			}
+		} 
+		,{
+		    "path" : "pages/xiaocong-login/login/login",
+		    "style" : {
+				"navigationBarTitleText": "Login"
+			}
+		}
+		,{
+		    "path" : "pages/xiaocong-login/forget/forget",
+		    "style" : {
+				"navigationBarTitleText": "Forget"
+			}
+		}
+		,{
+		    "path" : "pages/xiaocong-login/register/register",
+		    "style" : {
+				"navigationBarTitleText": "Register"
+			}
+		},
+		{
+		    "path" : "pages/habitpage/work/work",
+		    "style" : {
+				"navigationBarTitleText": "WORK | STUDY"
+			}
+		},
+		{
+		    "path" : "pages/habitpage/sport/sport",
+		    "style" : {
+				"navigationBarTitleText": "SPORT | TRAINING"
+			}
+		},
+		{
+		    "path" : "pages/habitpage/diet/diet",
+		    "style" : {
+				"navigationBarTitleText": "DIET | NUTRITION"
+			}
+		}
+        ,{
+            "path" : "pages/habitpage/relax/relax",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Habit",
+		"navigationBarBackgroundColor": "#8095A8",
+		"backgroundColor": "#8095A8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#282C35",
+	    "borderStyle": "white",
+	    "backgroundColor": "#FFFFFF",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "./static/tabbar/habit.png",
+			"selectedIconPath":"static/tabbar/habit_select.png",
+	        "text": "Habit"
+	    }, {
+			"pagePath": "pages/profile/profile",
+			"iconPath": "./static/tabbar/me.png",
+			"selectedIconPath":"static/tabbar/me_select.png",
+			"text": "Profile"
+		}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

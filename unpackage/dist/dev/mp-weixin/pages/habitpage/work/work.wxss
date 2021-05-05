@@ -1,0 +1,34 @@
+
+.bg-color-card{
+	height: 1000rpx;
+	border-radius: 0rpx 0rpx 70rpx 70rpx;
+}
+.charts3 {
+	position: absolute;
+	margin-left: 30rpx;
+	width: 500rpx;
+	height: 500rpx;
+}
+.u-progress-dot {
+		width: 16rpx;
+		height: 16rpx;
+		border-radius: 50%;
+		background-color: #FFFFFF;
+}
+.u-progress-content {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.u-progress-info {
+		font-size: 28rpx;
+		padding-left: 16rpx;
+		letter-spacing: 2rpx
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "DIET | NUTRITION",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-divider": "/uview-ui/components/u-divider/u-divider"
+  }
+}

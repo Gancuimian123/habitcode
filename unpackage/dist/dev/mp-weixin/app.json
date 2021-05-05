@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/xiaocong-login/login/login",
+    "pages/xiaocong-login/forget/forget",
+    "pages/xiaocong-login/register/register",
+    "pages/habitpage/work/work",
+    "pages/habitpage/sport/sport",
+    "pages/habitpage/diet/diet",
+    "pages/habitpage/relax/relax"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Habit",
+    "navigationBarBackgroundColor": "#8095A8",
+    "backgroundColor": "#8095A8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#282C35",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/tabbar/habit.png",
+        "selectedIconPath": "static/tabbar/habit_select.png",
+        "text": "Habit"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "./static/tabbar/me.png",
+        "selectedIconPath": "static/tabbar/me_select.png",
+        "text": "Profile"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

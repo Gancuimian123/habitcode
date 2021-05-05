@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-circle-progress": "/uview-ui/components/u-circle-progress/u-circle-progress",
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-row": "/uview-ui/components/u-row/u-row",
+    "u-col": "/uview-ui/components/u-col/u-col",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-rate": "/uview-ui/components/u-rate/u-rate"
+  }
+}
